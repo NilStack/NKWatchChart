@@ -1,4 +1,9 @@
 #NKWatchChart#
+
+![Verision](https://img.shields.io/badge/pod-v0.1.0-blue.svg)
+![Platform](https://img.shields.io/badge/platform-watchOS-ff69b4.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 A chart library for Apple Watch based on [PNChart](https://github.com/kevinzhow/PNChart). We support line, bar, pie, circle and radar charts.
 
 ![gif](https://db.tt/d7pJD84m)
@@ -174,3 +179,6 @@ And
 
 ##License##
 This code is distributed under the terms and conditions of the MIT license.
+
+##Thanks##
+Awesome chart library [PNChart](https://github.com/kevinzhow/PNChart) by @kevinzhow
