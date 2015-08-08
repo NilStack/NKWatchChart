@@ -12,10 +12,15 @@ A chart library for Apple Watch based on [PNChart](https://github.com/kevinzhow/
 
 ###Cocoapods###
 In your watchOS target
+
     pod 'NKWatchChart'
+    
 Then
+
     pod install
+    
 And
+
     #import "PNChart.h"
 
 ###Copy NKWatchChart folder to your project###
