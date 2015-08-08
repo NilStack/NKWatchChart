@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B82FF2C71B74F87600C25D26 /* NKLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2C61B74F87600C25D26 /* NKLineChart.m */; };
+		B82FF2CA1B74F94B00C25D26 /* NKLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2C91B74F94B00C25D26 /* NKLineChartData.m */; };
+		B82FF2CD1B74F96400C25D26 /* NKLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2CC1B74F96400C25D26 /* NKLineChartDataItem.m */; };
+		B82FF2D01B75953B00C25D26 /* NKPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2CF1B75953B00C25D26 /* NKPieChartDataItem.m */; };
+		B82FF2D31B75959400C25D26 /* NKPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D21B75959400C25D26 /* NKPieChart.m */; };
+		B82FF2D61B759CD200C25D26 /* NKCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D51B759CD200C25D26 /* NKCircleChart.m */; };
+		B82FF2D91B75B69800C25D26 /* NKRadarChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D81B75B69800C25D26 /* NKRadarChartDataItem.m */; };
+		B82FF2DC1B75B72000C25D26 /* NKRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2DB1B75B72000C25D26 /* NKRadarChart.m */; };
+		B875FD4D1B735C1100B9EA93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD4C1B735C1100B9EA93 /* main.m */; };
+		B875FD501B735C1100B9EA93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD4F1B735C1100B9EA93 /* AppDelegate.m */; };
+		B875FD531B735C1100B9EA93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD521B735C1100B9EA93 /* ViewController.m */; };
+		B875FD561B735C1100B9EA93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B875FD541B735C1100B9EA93 /* Main.storyboard */; };
+		B875FD581B735C1100B9EA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B875FD571B735C1100B9EA93 /* Assets.xcassets */; };
+		B875FD5B1B735C1100B9EA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B875FD591B735C1100B9EA93 /* LaunchScreen.storyboard */; };
+		B875FD681B735C7200B9EA93 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B875FD661B735C7200B9EA93 /* Interface.storyboard */; };
+		B875FD6A1B735C7200B9EA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B875FD691B735C7200B9EA93 /* Assets.xcassets */; };
+		B875FD711B735C7200B9EA93 /* WatchChart Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B875FD701B735C7200B9EA93 /* WatchChart Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B875FD771B735C7200B9EA93 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD761B735C7200B9EA93 /* InterfaceController.m */; };
+		B875FD7A1B735C7200B9EA93 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD791B735C7200B9EA93 /* ExtensionDelegate.m */; };
+		B875FD7C1B735C7200B9EA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B875FD7B1B735C7200B9EA93 /* Assets.xcassets */; };
+		B875FD801B735C7200B9EA93 /* WatchChart.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B875FD641B735C7200B9EA93 /* WatchChart.app */; };
+		B875FD8C1B735CDF00B9EA93 /* NKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD8B1B735CDF00B9EA93 /* NKColor.m */; };
+		B875FD931B735EA100B9EA93 /* NKBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD921B735EA100B9EA93 /* NKBarChart.m */; };
+		B8D5E22F1B747C6F005C3A88 /* ChartTableRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5E22E1B747C6F005C3A88 /* ChartTableRowController.m */; };
+		B8D5E2321B748522005C3A88 /* ChartInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5E2311B748522005C3A88 /* ChartInterfaceController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B875FD721B735C7200B9EA93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B875FD401B735C1100B9EA93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B875FD6F1B735C7200B9EA93;
+			remoteInfo = "WatchChart Extension";
+		};
+		B875FD7E1B735C7200B9EA93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B875FD401B735C1100B9EA93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B875FD631B735C7200B9EA93;
+			remoteInfo = WatchChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B875FD841B735C7200B9EA93 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B875FD711B735C7200B9EA93 /* WatchChart Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B875FD881B735C7200B9EA93 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B875FD801B735C7200B9EA93 /* WatchChart.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B82FF2C51B74F87600C25D26 /* NKLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKLineChart.h; sourceTree = "<group>"; };
+		B82FF2C61B74F87600C25D26 /* NKLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKLineChart.m; sourceTree = "<group>"; };
+		B82FF2C81B74F94B00C25D26 /* NKLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKLineChartData.h; sourceTree = "<group>"; };
+		B82FF2C91B74F94B00C25D26 /* NKLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKLineChartData.m; sourceTree = "<group>"; };
+		B82FF2CB1B74F96400C25D26 /* NKLineChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKLineChartDataItem.h; sourceTree = "<group>"; };
+		B82FF2CC1B74F96400C25D26 /* NKLineChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKLineChartDataItem.m; sourceTree = "<group>"; };
+		B82FF2CE1B75953B00C25D26 /* NKPieChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPieChartDataItem.h; sourceTree = "<group>"; };
+		B82FF2CF1B75953B00C25D26 /* NKPieChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKPieChartDataItem.m; sourceTree = "<group>"; };
+		B82FF2D11B75959400C25D26 /* NKPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKPieChart.h; sourceTree = "<group>"; };
+		B82FF2D21B75959400C25D26 /* NKPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKPieChart.m; sourceTree = "<group>"; };
+		B82FF2D41B759CD200C25D26 /* NKCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKCircleChart.h; sourceTree = "<group>"; };
+		B82FF2D51B759CD200C25D26 /* NKCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKCircleChart.m; sourceTree = "<group>"; };
+		B82FF2D71B75B69800C25D26 /* NKRadarChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKRadarChartDataItem.h; sourceTree = "<group>"; };
+		B82FF2D81B75B69800C25D26 /* NKRadarChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKRadarChartDataItem.m; sourceTree = "<group>"; };
+		B82FF2DA1B75B72000C25D26 /* NKRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKRadarChart.h; sourceTree = "<group>"; };
+		B82FF2DB1B75B72000C25D26 /* NKRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKRadarChart.m; sourceTree = "<group>"; };
+		B875FD481B735C1100B9EA93 /* NKWatchChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKWatchChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B875FD4C1B735C1100B9EA93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B875FD4E1B735C1100B9EA93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B875FD4F1B735C1100B9EA93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B875FD511B735C1100B9EA93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B875FD521B735C1100B9EA93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B875FD551B735C1100B9EA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B875FD571B735C1100B9EA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B875FD5A1B735C1100B9EA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B875FD5C1B735C1100B9EA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B875FD641B735C7200B9EA93 /* WatchChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B875FD671B735C7200B9EA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B875FD691B735C7200B9EA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B875FD6B1B735C7200B9EA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B875FD701B735C7200B9EA93 /* WatchChart Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchChart Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B875FD751B735C7200B9EA93 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		B875FD761B735C7200B9EA93 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		B875FD781B735C7200B9EA93 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		B875FD791B735C7200B9EA93 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		B875FD7B1B735C7200B9EA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B875FD7D1B735C7200B9EA93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B875FD8A1B735CDF00B9EA93 /* NKColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKColor.h; sourceTree = "<group>"; };
+		B875FD8B1B735CDF00B9EA93 /* NKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKColor.m; sourceTree = "<group>"; };
+		B875FD8E1B735E2900B9EA93 /* NKWatchChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWatchChart.h; sourceTree = "<group>"; };
+		B875FD911B735EA100B9EA93 /* NKBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKBarChart.h; sourceTree = "<group>"; };
+		B875FD921B735EA100B9EA93 /* NKBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKBarChart.m; sourceTree = "<group>"; };
+		B8D5E22D1B747C6F005C3A88 /* ChartTableRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTableRowController.h; sourceTree = "<group>"; };
+		B8D5E22E1B747C6F005C3A88 /* ChartTableRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTableRowController.m; sourceTree = "<group>"; };
+		B8D5E2301B748522005C3A88 /* ChartInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartInterfaceController.h; sourceTree = "<group>"; };
+		B8D5E2311B748522005C3A88 /* ChartInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartInterfaceController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B875FD451B735C1100B9EA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B875FD6D1B735C7200B9EA93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B875FD3F1B735C1100B9EA93 = {
+			isa = PBXGroup;
+			children = (
+				B875FD4A1B735C1100B9EA93 /* NKWatchChartDemo */,
+				B875FD651B735C7200B9EA93 /* WatchChart */,
+				B875FD741B735C7200B9EA93 /* WatchChart Extension */,
+				B875FD491B735C1100B9EA93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B875FD491B735C1100B9EA93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B875FD481B735C1100B9EA93 /* NKWatchChartDemo.app */,
+				B875FD641B735C7200B9EA93 /* WatchChart.app */,
+				B875FD701B735C7200B9EA93 /* WatchChart Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B875FD4A1B735C1100B9EA93 /* NKWatchChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B875FD4E1B735C1100B9EA93 /* AppDelegate.h */,
+				B875FD4F1B735C1100B9EA93 /* AppDelegate.m */,
+				B875FD511B735C1100B9EA93 /* ViewController.h */,
+				B875FD521B735C1100B9EA93 /* ViewController.m */,
+				B875FD541B735C1100B9EA93 /* Main.storyboard */,
+				B875FD571B735C1100B9EA93 /* Assets.xcassets */,
+				B875FD591B735C1100B9EA93 /* LaunchScreen.storyboard */,
+				B875FD5C1B735C1100B9EA93 /* Info.plist */,
+				B875FD4B1B735C1100B9EA93 /* Supporting Files */,
+			);
+			path = NKWatchChartDemo;
+			sourceTree = "<group>";
+		};
+		B875FD4B1B735C1100B9EA93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B875FD4C1B735C1100B9EA93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B875FD651B735C7200B9EA93 /* WatchChart */ = {
+			isa = PBXGroup;
+			children = (
+				B875FD661B735C7200B9EA93 /* Interface.storyboard */,
+				B875FD691B735C7200B9EA93 /* Assets.xcassets */,
+				B875FD6B1B735C7200B9EA93 /* Info.plist */,
+			);
+			path = WatchChart;
+			sourceTree = "<group>";
+		};
+		B875FD741B735C7200B9EA93 /* WatchChart Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B875FD891B735CC600B9EA93 /* NKWatchChart */,
+				B875FD751B735C7200B9EA93 /* InterfaceController.h */,
+				B875FD761B735C7200B9EA93 /* InterfaceController.m */,
+				B8D5E22D1B747C6F005C3A88 /* ChartTableRowController.h */,
+				B8D5E22E1B747C6F005C3A88 /* ChartTableRowController.m */,
+				B8D5E2301B748522005C3A88 /* ChartInterfaceController.h */,
+				B8D5E2311B748522005C3A88 /* ChartInterfaceController.m */,
+				B875FD781B735C7200B9EA93 /* ExtensionDelegate.h */,
+				B875FD791B735C7200B9EA93 /* ExtensionDelegate.m */,
+				B875FD7B1B735C7200B9EA93 /* Assets.xcassets */,
+				B875FD7D1B735C7200B9EA93 /* Info.plist */,
+			);
+			path = "WatchChart Extension";
+			sourceTree = "<group>";
+		};
+		B875FD891B735CC600B9EA93 /* NKWatchChart */ = {
+			isa = PBXGroup;
+			children = (
+				B875FD8E1B735E2900B9EA93 /* NKWatchChart.h */,
+				B875FD8A1B735CDF00B9EA93 /* NKColor.h */,
+				B875FD8B1B735CDF00B9EA93 /* NKColor.m */,
+				B82FF2C51B74F87600C25D26 /* NKLineChart.h */,
+				B82FF2C61B74F87600C25D26 /* NKLineChart.m */,
+				B82FF2C81B74F94B00C25D26 /* NKLineChartData.h */,
+				B82FF2C91B74F94B00C25D26 /* NKLineChartData.m */,
+				B82FF2CB1B74F96400C25D26 /* NKLineChartDataItem.h */,
+				B82FF2CC1B74F96400C25D26 /* NKLineChartDataItem.m */,
+				B875FD911B735EA100B9EA93 /* NKBarChart.h */,
+				B875FD921B735EA100B9EA93 /* NKBarChart.m */,
+				B82FF2D11B75959400C25D26 /* NKPieChart.h */,
+				B82FF2D21B75959400C25D26 /* NKPieChart.m */,
+				B82FF2CE1B75953B00C25D26 /* NKPieChartDataItem.h */,
+				B82FF2CF1B75953B00C25D26 /* NKPieChartDataItem.m */,
+				B82FF2D41B759CD200C25D26 /* NKCircleChart.h */,
+				B82FF2D51B759CD200C25D26 /* NKCircleChart.m */,
+				B82FF2DA1B75B72000C25D26 /* NKRadarChart.h */,
+				B82FF2DB1B75B72000C25D26 /* NKRadarChart.m */,
+				B82FF2D71B75B69800C25D26 /* NKRadarChartDataItem.h */,
+				B82FF2D81B75B69800C25D26 /* NKRadarChartDataItem.m */,
+			);
+			path = NKWatchChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B875FD471B735C1100B9EA93 /* NKWatchChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B875FD5F1B735C1100B9EA93 /* Build configuration list for PBXNativeTarget "NKWatchChartDemo" */;
+			buildPhases = (
+				B875FD441B735C1100B9EA93 /* Sources */,
+				B875FD451B735C1100B9EA93 /* Frameworks */,
+				B875FD461B735C1100B9EA93 /* Resources */,
+				B875FD881B735C7200B9EA93 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B875FD7F1B735C7200B9EA93 /* PBXTargetDependency */,
+			);
+			name = NKWatchChartDemo;
+			productName = NKWatchChartDemo;
+			productReference = B875FD481B735C1100B9EA93 /* NKWatchChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B875FD631B735C7200B9EA93 /* WatchChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B875FD851B735C7200B9EA93 /* Build configuration list for PBXNativeTarget "WatchChart" */;
+			buildPhases = (
+				B875FD621B735C7200B9EA93 /* Resources */,
+				B875FD841B735C7200B9EA93 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B875FD731B735C7200B9EA93 /* PBXTargetDependency */,
+			);
+			name = WatchChart;
+			productName = WatchChart;
+			productReference = B875FD641B735C7200B9EA93 /* WatchChart.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B875FD6F1B735C7200B9EA93 /* WatchChart Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B875FD811B735C7200B9EA93 /* Build configuration list for PBXNativeTarget "WatchChart Extension" */;
+			buildPhases = (
+				B875FD6C1B735C7200B9EA93 /* Sources */,
+				B875FD6D1B735C7200B9EA93 /* Frameworks */,
+				B875FD6E1B735C7200B9EA93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchChart Extension";
+			productName = "WatchChart Extension";
+			productReference = B875FD701B735C7200B9EA93 /* WatchChart Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B875FD401B735C1100B9EA93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Peng;
+				TargetAttributes = {
+					B875FD471B735C1100B9EA93 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B875FD631B735C7200B9EA93 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B875FD6F1B735C7200B9EA93 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B875FD431B735C1100B9EA93 /* Build configuration list for PBXProject "NKWatchChartDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B875FD3F1B735C1100B9EA93;
+			productRefGroup = B875FD491B735C1100B9EA93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B875FD471B735C1100B9EA93 /* NKWatchChartDemo */,
+				B875FD631B735C7200B9EA93 /* WatchChart */,
+				B875FD6F1B735C7200B9EA93 /* WatchChart Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B875FD461B735C1100B9EA93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B875FD5B1B735C1100B9EA93 /* LaunchScreen.storyboard in Resources */,
+				B875FD581B735C1100B9EA93 /* Assets.xcassets in Resources */,
+				B875FD561B735C1100B9EA93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B875FD621B735C7200B9EA93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B875FD6A1B735C7200B9EA93 /* Assets.xcassets in Resources */,
+				B875FD681B735C7200B9EA93 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B875FD6E1B735C7200B9EA93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B875FD7C1B735C7200B9EA93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B875FD441B735C1100B9EA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B875FD531B735C1100B9EA93 /* ViewController.m in Sources */,
+				B875FD501B735C1100B9EA93 /* AppDelegate.m in Sources */,
+				B875FD4D1B735C1100B9EA93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B875FD6C1B735C7200B9EA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82FF2C71B74F87600C25D26 /* NKLineChart.m in Sources */,
+				B82FF2D01B75953B00C25D26 /* NKPieChartDataItem.m in Sources */,
+				B82FF2CA1B74F94B00C25D26 /* NKLineChartData.m in Sources */,
+				B8D5E2321B748522005C3A88 /* ChartInterfaceController.m in Sources */,
+				B875FD7A1B735C7200B9EA93 /* ExtensionDelegate.m in Sources */,
+				B82FF2D31B75959400C25D26 /* NKPieChart.m in Sources */,
+				B875FD771B735C7200B9EA93 /* InterfaceController.m in Sources */,
+				B82FF2D91B75B69800C25D26 /* NKRadarChartDataItem.m in Sources */,
+				B82FF2CD1B74F96400C25D26 /* NKLineChartDataItem.m in Sources */,
+				B875FD8C1B735CDF00B9EA93 /* NKColor.m in Sources */,
+				B8D5E22F1B747C6F005C3A88 /* ChartTableRowController.m in Sources */,
+				B875FD931B735EA100B9EA93 /* NKBarChart.m in Sources */,
+				B82FF2DC1B75B72000C25D26 /* NKRadarChart.m in Sources */,
+				B82FF2D61B759CD200C25D26 /* NKCircleChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B875FD731B735C7200B9EA93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B875FD6F1B735C7200B9EA93 /* WatchChart Extension */;
+			targetProxy = B875FD721B735C7200B9EA93 /* PBXContainerItemProxy */;
+		};
+		B875FD7F1B735C7200B9EA93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B875FD631B735C7200B9EA93 /* WatchChart */;
+			targetProxy = B875FD7E1B735C7200B9EA93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B875FD541B735C1100B9EA93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B875FD551B735C1100B9EA93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B875FD591B735C1100B9EA93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B875FD5A1B735C1100B9EA93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B875FD661B735C7200B9EA93 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B875FD671B735C7200B9EA93 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B875FD5D1B735C1100B9EA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B875FD5E1B735C1100B9EA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B875FD601B735C1100B9EA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NKWatchChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B875FD611B735C1100B9EA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NKWatchChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B875FD821B735C7200B9EA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchChart Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchChartDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B875FD831B735C7200B9EA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchChart Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchChartDemo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B875FD861B735C7200B9EA93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchChart_Extension;
+				INFOPLIST_FILE = WatchChart/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchChartDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B875FD871B735C7200B9EA93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchChart_Extension;
+				INFOPLIST_FILE = WatchChart/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = watch.develop.NKWatchChartDemo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B875FD431B735C1100B9EA93 /* Build configuration list for PBXProject "NKWatchChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B875FD5D1B735C1100B9EA93 /* Debug */,
+				B875FD5E1B735C1100B9EA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B875FD5F1B735C1100B9EA93 /* Build configuration list for PBXNativeTarget "NKWatchChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B875FD601B735C1100B9EA93 /* Debug */,
+				B875FD611B735C1100B9EA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B875FD811B735C7200B9EA93 /* Build configuration list for PBXNativeTarget "WatchChart Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B875FD821B735C7200B9EA93 /* Debug */,
+				B875FD831B735C7200B9EA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B875FD851B735C7200B9EA93 /* Build configuration list for PBXNativeTarget "WatchChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B875FD861B735C7200B9EA93 /* Debug */,
+				B875FD871B735C7200B9EA93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B875FD401B735C1100B9EA93 /* Project object */;
+}
