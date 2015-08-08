@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/NilStack"
   s.watchos.deployment_target = "2.0"
   s.source       = { :git => "https://github.com/NilStack/NKWatchChart.git", :tag => s.version.to_s }
-  s.source_files  = "WatchChart Extension/NKWatchChart/*.{h,m}"
+  s.watchos.source_files  = "WatchChart Extension/NKWatchChart/*.{h,m}"
   s.frameworks = "UIKit", "WatchKit"
   s.requires_arc = true
 
