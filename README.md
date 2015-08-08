@@ -1,11 +1,20 @@
 #NKWatchChart#
-A chart library for Apple Watch based on [PNChart](https://github.com/kevinzhow/PNChart).
+A chart library for Apple Watch based on [PNChart](https://github.com/kevinzhow/PNChart). We support line, bar, pie, circle and radar charts.
 
 ![gif](https://db.tt/d7pJD84m)
 
+##Usage##
+
+###Cocoapods###
+coming soon...
+
+###Copy NKWatchChart folder to your project###
+
+##Requirements##
+* watchOS ~> 2.0
+* Xcode >= 7.0
 
 ##Examples##
-We support line, bar, pie, circle and radar charts.
 
 ####Line Chart####
 
@@ -82,22 +91,81 @@ We support line, bar, pie, circle and radar charts.
 
 ![Bar Chart](https://db.tt/MfvNnpOp)
 
+```objective-c
+    
+     NKBarChart *chart = [[NKBarChart alloc] initWithFrame:frame];
+        chart.yLabelFormatter = ^(CGFloat yValue){
+            CGFloat yValueParsed = yValue;
+            NSString * labelText = [NSString stringWithFormat:@"%0.f",yValueParsed];
+            return labelText;
+        };
+        chart.labelMarginTop = 5.0;
+        chart.showChartBorder = YES;
+        [chart setXLabels:@[@"2",@"3",@"4",@"5",@"2",@"3",@"4",@"5"]];
+        //       self.barChart.yLabels = @[@-10,@0,@10];
+        [chart setYValues:@[@10.82,@1.88,@6.96,@33.93,@10.82,@1.88,@6.96,@33.93]];
+        [chart setStrokeColors:@[NKGreen,NKGreen,NKRed,NKGreen,NKGreen,NKGreen,NKRed,NKGreen]];
+        
+        image = [chart drawImage];
+        [self.chartImage setImage:image];
+
+```
+
 ####Pie Chart####
 
 ![Pie Chart](https://db.tt/hs3MwXxW)
+
+```objective-c
+
+     NSArray *items = @[[NKPieChartDataItem dataItemWithValue:10 color:NKLightGreen],
+                           [NKPieChartDataItem dataItemWithValue:20 color:NKFreshGreen description:@"WWDC"],
+                           [NKPieChartDataItem dataItemWithValue:40 color:NKDeepGreen description:@"GOOG I/O"],
+                           ];
+        
+        NKPieChart *chart = [[NKPieChart alloc] initWithFrame:frame items:items];
+        chart.descriptionTextColor = [UIColor whiteColor];
+        chart.descriptionTextFont  = [UIFont systemFontOfSize:12.0];
+        chart.showAbsoluteValues = NO;
+        chart.showOnlyValues = NO;
+        
+        image = [chart drawImage];
+        [self.chartImage setImage:image];
+
+```
 
 ####Circle Chart####
 
 ![Circle Chart](https://db.tt/bmRpg3ep)
 
+```objective-c
+
+    UIColor *shadowColor = [UIColor colorWithRed:225.0 / 255.0 green:225.0 / 255.0 blue:225.0 / 255.0 alpha:0.5f];
+        NKCircleChart *chart = [[NKCircleChart alloc] initWithFrame:frame total:@100 current:@60 clockwise:YES shadow:YES shadowColor:shadowColor displayCountingLabel:YES overrideLineWidth:@5];
+        chart.strokeColor = NKGreen;
+        chart.strokeColorGradientStart = NKLightGreen;
+        image = [chart drawImage];
+        [self.chartImage setImage:image];
+
+```
+
 ####Radar Chart####
 
 ![Radar Chart](https://db.tt/FgQer9TW)
 
-##Requirements##
-* watchOS ~> 2.0
-* Xcode >= 7.0
+```objective-c
+    
+    NSArray *items = @[[NKRadarChartDataItem dataItemWithValue:3 description:@"Art"],
+                           [NKRadarChartDataItem dataItemWithValue:2 description:@"Math"],
+                           [NKRadarChartDataItem dataItemWithValue:8 description:@"Sports"],
+                           [NKRadarChartDataItem dataItemWithValue:5 description:@"Liter"],
+                           [NKRadarChartDataItem dataItemWithValue:4 description:@"Other"],
+                           ];
+        NKRadarChart *chart = [[NKRadarChart alloc] initWithFrame:frame items:items valueDivider:1];
+        
+        image = [chart drawImage];
+        [self.chartImage setImage:image];
 
+```
 
 ##License##
 This code is distributed under the terms and conditions of the MIT license.
