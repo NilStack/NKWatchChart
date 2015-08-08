@@ -21,9 +21,9 @@ Then
     
 And
 
-    #import "PNChart.h"
+    #import "NKWatchChart.h"
 
-###Copy NKWatchChart folder to your project###
+###Copy NKWatchChart folder to watch app extension ###
 
 ##Requirements##
 * watchOS ~> 2.0
