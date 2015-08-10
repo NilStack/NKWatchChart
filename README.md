@@ -23,6 +23,8 @@ And
 
     #import "NKWatchChart.h"
 
+[Using Cocoapods with watchOS 2](https://medium.com/@JTEhlert/using-cocoapods-with-watchos-2-723b92eae04f) by Justin Ehlert
+
 ###Copy NKWatchChart folder to watch app extension ###
 
 ##Requirements##
