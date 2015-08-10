@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/badge/platform-watchOS-ff69b4.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-A chart library for Apple Watch based on [PNChart](https://github.com/kevinzhow/PNChart). We support line, bar, pie, circle and radar charts.
+A chart library for Apple Watch based on [PNChart](https://github.com/kevinzhow/PNChart). We support line, bar, pie, circle and radar charts now and will integrate more chart types from [ios-charts](https://github.com/danielgindi/ios-charts).
 
 ![gif](https://db.tt/d7pJD84m)
 
