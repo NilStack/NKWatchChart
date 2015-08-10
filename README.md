@@ -183,6 +183,12 @@ And
         [self.chartImage setImage:image];
 
 ```
+##TODO##
+* more testing
+* refactoring
+* add bubble chart from [ios-charts](https://github.com/danielgindi/ios-charts)
+* add scatter chart
+* more chart types
 
 ##License##
 This code is distributed under the terms and conditions of the MIT license.
