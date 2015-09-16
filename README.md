@@ -190,6 +190,10 @@ And
 * add scatter chart
 * more chart types
 
+##Apps using NKWatchChart##
+
+Please Let me know at guoleii@gmail.com if you use NKWatchChart in your apps.
+
 ##NKWatchChart on medias##
 
  * maniacdev.com
@@ -205,7 +209,7 @@ And
 [http://iphonedev.co.kr/sampleSource/24204](http://iphonedev.co.kr/sampleSource/24204)
 
  * toutiao.io in Chinese
- 
+
 [http://toutiao.io/posts/qga8e](http://toutiao.io/posts/qga8e)
 
 ##License##
