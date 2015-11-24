@@ -14,7 +14,6 @@
 
 @interface NKLineChart ()
 
-@property (nonatomic) CGRect frame;
 @property (nonatomic) NSMutableArray *chartLineArray;
 
 // Array of line path, one for each line.
@@ -69,6 +68,13 @@
     _showCoordinateAxis = NO;
     _axisColor = [UIColor colorWithRed:0.4f green:0.4f blue:0.4f alpha:1.f];
     _axisWidth = 1.f;
+}
+
+- (void)setFrame:(CGRect)frame
+{
+    _frame = frame;
+    _chartCavanWidth = frame.size.width - _chartMargin * 2;
+    _chartCavanHeight = frame.size.height - _chartMargin * 2;
 }
 
 #pragma mark - Draw Chart

@@ -11,6 +11,8 @@
 
 @interface NKLineChart : NSObject
 
+@property (nonatomic) CGRect frame;
+
 // Background color of the chart
 @property (nonatomic) UIColor *chartBackgroundColor;
 // Array of `LineChartData` objects, one for each line.
