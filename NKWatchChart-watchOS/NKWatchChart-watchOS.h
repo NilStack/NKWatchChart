@@ -14,6 +14,4 @@ FOUNDATION_EXPORT double NKWatchChart_watchOSVersionNumber;
 //! Project version string for NKWatchChart-watchOS.
 FOUNDATION_EXPORT const unsigned char NKWatchChart_watchOSVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <NKWatchChart_watchOS/PublicHeader.h>
-
-
+#import "NKWatchChart.h"

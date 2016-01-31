@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		780FDB961C5EB58600FDF98F /* NKWatchChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD8E1B735E2900B9EA93 /* NKWatchChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB971C5EB58700FDF98F /* NKWatchChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD8E1B735E2900B9EA93 /* NKWatchChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB981C5EB5E000FDF98F /* NKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD8A1B735CDF00B9EA93 /* NKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB991C5EB5E000FDF98F /* NKLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2C51B74F87600C25D26 /* NKLineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9A1C5EB5E000FDF98F /* NKLineChartData.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2C81B74F94B00C25D26 /* NKLineChartData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9B1C5EB5E000FDF98F /* NKLineChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2CB1B74F96400C25D26 /* NKLineChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9C1C5EB5E000FDF98F /* NKBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD911B735EA100B9EA93 /* NKBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9D1C5EB5E000FDF98F /* NKPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D11B75959400C25D26 /* NKPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9E1C5EB5E000FDF98F /* NKPieChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2CE1B75953B00C25D26 /* NKPieChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9F1C5EB5E000FDF98F /* NKCircleChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D41B759CD200C25D26 /* NKCircleChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA01C5EB5E000FDF98F /* NKRadarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2DA1B75B72000C25D26 /* NKRadarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA11C5EB5E000FDF98F /* NKRadarChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D71B75B69800C25D26 /* NKRadarChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA21C5EB5E100FDF98F /* NKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD8A1B735CDF00B9EA93 /* NKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA31C5EB5E100FDF98F /* NKLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2C51B74F87600C25D26 /* NKLineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA41C5EB5E100FDF98F /* NKLineChartData.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2C81B74F94B00C25D26 /* NKLineChartData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA51C5EB5E100FDF98F /* NKLineChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2CB1B74F96400C25D26 /* NKLineChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA61C5EB5E100FDF98F /* NKBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD911B735EA100B9EA93 /* NKBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA71C5EB5E100FDF98F /* NKPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D11B75959400C25D26 /* NKPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA81C5EB5E100FDF98F /* NKPieChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2CE1B75953B00C25D26 /* NKPieChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA91C5EB5E100FDF98F /* NKCircleChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D41B759CD200C25D26 /* NKCircleChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBAA1C5EB5E100FDF98F /* NKRadarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2DA1B75B72000C25D26 /* NKRadarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBAB1C5EB5E100FDF98F /* NKRadarChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D71B75B69800C25D26 /* NKRadarChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		785BBE251C5EAED2001B6DD4 /* NKWatchChart-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 785BBE241C5EAED2001B6DD4 /* NKWatchChart-watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		785BBE291C5EAED2001B6DD4 /* NKWatchChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785BBE221C5EAED2001B6DD4 /* NKWatchChart.framework */; };
 		785BBE2A1C5EAED2001B6DD4 /* NKWatchChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 785BBE221C5EAED2001B6DD4 /* NKWatchChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -347,7 +369,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780FDB961C5EB58600FDF98F /* NKWatchChart.h in Headers */,
 				785BBE251C5EAED2001B6DD4 /* NKWatchChart-watchOS.h in Headers */,
+				780FDB9F1C5EB5E000FDF98F /* NKCircleChart.h in Headers */,
+				780FDB9A1C5EB5E000FDF98F /* NKLineChartData.h in Headers */,
+				780FDB9D1C5EB5E000FDF98F /* NKPieChart.h in Headers */,
+				780FDB991C5EB5E000FDF98F /* NKLineChart.h in Headers */,
+				780FDBA11C5EB5E000FDF98F /* NKRadarChartDataItem.h in Headers */,
+				780FDBA01C5EB5E000FDF98F /* NKRadarChart.h in Headers */,
+				780FDB9E1C5EB5E000FDF98F /* NKPieChartDataItem.h in Headers */,
+				780FDB9C1C5EB5E000FDF98F /* NKBarChart.h in Headers */,
+				780FDB981C5EB5E000FDF98F /* NKColor.h in Headers */,
+				780FDB9B1C5EB5E000FDF98F /* NKLineChartDataItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +388,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780FDB971C5EB58700FDF98F /* NKWatchChart.h in Headers */,
 				785BBE361C5EAEF4001B6DD4 /* NKWatchChart-iOS.h in Headers */,
+				780FDBA91C5EB5E100FDF98F /* NKCircleChart.h in Headers */,
+				780FDBA41C5EB5E100FDF98F /* NKLineChartData.h in Headers */,
+				780FDBA71C5EB5E100FDF98F /* NKPieChart.h in Headers */,
+				780FDBA31C5EB5E100FDF98F /* NKLineChart.h in Headers */,
+				780FDBAB1C5EB5E100FDF98F /* NKRadarChartDataItem.h in Headers */,
+				780FDBAA1C5EB5E100FDF98F /* NKRadarChart.h in Headers */,
+				780FDBA81C5EB5E100FDF98F /* NKPieChartDataItem.h in Headers */,
+				780FDBA61C5EB5E100FDF98F /* NKBarChart.h in Headers */,
+				780FDBA21C5EB5E100FDF98F /* NKColor.h in Headers */,
+				780FDBA51C5EB5E100FDF98F /* NKLineChartDataItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
