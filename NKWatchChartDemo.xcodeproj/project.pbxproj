@@ -29,10 +29,8 @@
 		780FDBA91C5EB5E100FDF98F /* NKCircleChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D41B759CD200C25D26 /* NKCircleChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		780FDBAA1C5EB5E100FDF98F /* NKRadarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2DA1B75B72000C25D26 /* NKRadarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		780FDBAB1C5EB5E100FDF98F /* NKRadarChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D71B75B69800C25D26 /* NKRadarChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		785BBE251C5EAED2001B6DD4 /* NKWatchChart-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 785BBE241C5EAED2001B6DD4 /* NKWatchChart-watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		785BBE291C5EAED2001B6DD4 /* NKWatchChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785BBE221C5EAED2001B6DD4 /* NKWatchChart.framework */; };
 		785BBE2A1C5EAED2001B6DD4 /* NKWatchChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 785BBE221C5EAED2001B6DD4 /* NKWatchChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		785BBE361C5EAEF4001B6DD4 /* NKWatchChart-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 785BBE351C5EAEF4001B6DD4 /* NKWatchChart-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		785BBE3A1C5EAEF4001B6DD4 /* NKWatchChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785BBE331C5EAEF4001B6DD4 /* NKWatchChart.framework */; };
 		785BBE3B1C5EAEF4001B6DD4 /* NKWatchChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 785BBE331C5EAEF4001B6DD4 /* NKWatchChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		785BBE401C5EAF1F001B6DD4 /* NKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD8B1B735CDF00B9EA93 /* NKColor.m */; };
@@ -152,10 +150,8 @@
 
 /* Begin PBXFileReference section */
 		785BBE221C5EAED2001B6DD4 /* NKWatchChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKWatchChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		785BBE241C5EAED2001B6DD4 /* NKWatchChart-watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NKWatchChart-watchOS.h"; sourceTree = "<group>"; };
 		785BBE261C5EAED2001B6DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		785BBE331C5EAEF4001B6DD4 /* NKWatchChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKWatchChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		785BBE351C5EAEF4001B6DD4 /* NKWatchChart-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NKWatchChart-iOS.h"; sourceTree = "<group>"; };
 		785BBE371C5EAEF4001B6DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B82FF2C51B74F87600C25D26 /* NKLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKLineChart.h; sourceTree = "<group>"; };
 		B82FF2C61B74F87600C25D26 /* NKLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKLineChart.m; sourceTree = "<group>"; };
@@ -242,7 +238,6 @@
 		785BBE231C5EAED2001B6DD4 /* NKWatchChart-watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				785BBE241C5EAED2001B6DD4 /* NKWatchChart-watchOS.h */,
 				785BBE261C5EAED2001B6DD4 /* Info.plist */,
 			);
 			path = "NKWatchChart-watchOS";
@@ -251,7 +246,6 @@
 		785BBE341C5EAEF4001B6DD4 /* NKWatchChart-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				785BBE351C5EAEF4001B6DD4 /* NKWatchChart-iOS.h */,
 				785BBE371C5EAEF4001B6DD4 /* Info.plist */,
 			);
 			path = "NKWatchChart-iOS";
@@ -370,7 +364,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				780FDB961C5EB58600FDF98F /* NKWatchChart.h in Headers */,
-				785BBE251C5EAED2001B6DD4 /* NKWatchChart-watchOS.h in Headers */,
 				780FDB9F1C5EB5E000FDF98F /* NKCircleChart.h in Headers */,
 				780FDB9A1C5EB5E000FDF98F /* NKLineChartData.h in Headers */,
 				780FDB9D1C5EB5E000FDF98F /* NKPieChart.h in Headers */,
@@ -389,7 +382,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				780FDB971C5EB58700FDF98F /* NKWatchChart.h in Headers */,
-				785BBE361C5EAEF4001B6DD4 /* NKWatchChart-iOS.h in Headers */,
 				780FDBA91C5EB5E100FDF98F /* NKCircleChart.h in Headers */,
 				780FDBA41C5EB5E100FDF98F /* NKLineChartData.h in Headers */,
 				780FDBA71C5EB5E100FDF98F /* NKPieChart.h in Headers */,
