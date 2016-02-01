@@ -198,7 +198,7 @@
 		B875FD8B1B735CDF00B9EA93 /* NKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKColor.m; sourceTree = "<group>"; };
 		B875FD8E1B735E2900B9EA93 /* NKWatchChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWatchChart.h; sourceTree = "<group>"; };
 		B875FD911B735EA100B9EA93 /* NKBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKBarChart.h; sourceTree = "<group>"; };
-		B875FD921B735EA100B9EA93 /* NKBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKBarChart.m; sourceTree = "<group>"; };
+		B875FD921B735EA100B9EA93 /* NKBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = NKBarChart.m; sourceTree = "<group>"; tabWidth = 4; };
 		B8D5E22D1B747C6F005C3A88 /* ChartTableRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTableRowController.h; sourceTree = "<group>"; };
 		B8D5E22E1B747C6F005C3A88 /* ChartTableRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTableRowController.m; sourceTree = "<group>"; };
 		B8D5E2301B748522005C3A88 /* ChartInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartInterfaceController.h; sourceTree = "<group>"; };

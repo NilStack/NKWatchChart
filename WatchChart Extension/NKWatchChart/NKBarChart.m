@@ -59,43 +59,41 @@
 
 - (void)drawXLabels
 {
-    int xValuesCount = ceilf((float)[_xLabels count] / _xLabelSkip);
-    _xLabelWidth = (_frame.size.width - _chartMargin * 2) / xValuesCount;
-    int labelAddCount = 0;
+    _xLabelWidth = (_frame.size.width - _chartMargin * 2) / [_xLabels count];
+
+    int xValuesCount = ceilf((float)[_xLabels count] / (_xLabelSkip + 1));
+    CGFloat labelWidth = (_frame.size.width - _chartMargin * 2) / xValuesCount;
     for (int index = 0; index < _xLabels.count; index++) {
-        labelAddCount += 1;
-        
-        if (labelAddCount == _xLabelSkip) {
-            NSString *labelText = [_xLabels[index] description];
-            
-            NSMutableParagraphStyle *priceParagraphStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
-            priceParagraphStyle.lineBreakMode = NSLineBreakByTruncatingTail;
-            priceParagraphStyle.alignment = NSTextAlignmentLeft;
-            
-            NSMutableDictionary *attributesDictionary = [NSMutableDictionary dictionary];
-            [attributesDictionary setObject:_labelFont forKey:NSFontAttributeName];
-            [attributesDictionary setObject:_labelTextColor forKey:NSForegroundColorAttributeName];
-            [attributesDictionary setObject:priceParagraphStyle forKey:NSParagraphStyleAttributeName];
-            
-            CGFloat labelXPosition = (index *  _xLabelWidth + _chartMargin + _xLabelWidth /2.0 );
-            
-            CGRect labelRect = CGRectMake(labelXPosition,
-                                          _frame.size.height - kXLabelHeight - _chartMargin + _labelMarginTop,
-                                          _xLabelWidth,
-                                          kXLabelHeight);
-            [labelText drawInRect:labelRect withAttributes:attributesDictionary];
-            
-            labelAddCount = 0;
-            
+        if ((index + 1) % _xLabelSkip != 0) {
+            continue;
         }
+
+        NSString *labelText = [_xLabels[index] description];
+
+        NSMutableParagraphStyle *priceParagraphStyle = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+        priceParagraphStyle.lineBreakMode = NSLineBreakByTruncatingTail;
+        priceParagraphStyle.alignment = NSTextAlignmentCenter;
+
+        NSMutableDictionary *attributesDictionary = [NSMutableDictionary dictionary];
+        [attributesDictionary setObject:_labelFont forKey:NSFontAttributeName];
+        [attributesDictionary setObject:_labelTextColor forKey:NSForegroundColorAttributeName];
+        [attributesDictionary setObject:priceParagraphStyle forKey:NSParagraphStyleAttributeName];
+
+        CGFloat labelXPosition = index *  _xLabelWidth + _chartMargin + _xLabelWidth / 2 - labelWidth / 2;
+
+        CGRect labelRect = CGRectMake(labelXPosition,
+                                      _frame.size.height - kXLabelHeight - _chartMargin + _labelMarginTop,
+                                      labelWidth,
+                                      kXLabelHeight);
+        [labelText drawInRect:labelRect withAttributes:attributesDictionary];
     }
-    
+
 }
 
 - (void)drawYLabels
 {
     [self processYMaxValue];
-    
+
     float sectionHeight = (_frame.size.height - _chartMargin * 2 - kXLabelHeight) / _yLabelSum;
     for (int i = 0; i <= _yLabelSum; i++)
     {
