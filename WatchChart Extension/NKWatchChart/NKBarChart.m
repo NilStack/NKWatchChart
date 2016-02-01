@@ -59,7 +59,8 @@
 
 - (void)drawXLabels
 {
-    _xLabelWidth = (_frame.size.width - _chartMargin * 2) / [_xLabels count];
+    int xValuesCount = ceilf((float)[_xLabels count] / _xLabelSkip);
+    _xLabelWidth = (_frame.size.width - _chartMargin * 2) / xValuesCount;
     int labelAddCount = 0;
     for (int index = 0; index < _xLabels.count; index++) {
         labelAddCount += 1;
