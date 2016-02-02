@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B82FF2C71B74F87600C25D26 /* NKLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2C61B74F87600C25D26 /* NKLineChart.m */; };
-		B82FF2CA1B74F94B00C25D26 /* NKLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2C91B74F94B00C25D26 /* NKLineChartData.m */; };
-		B82FF2CD1B74F96400C25D26 /* NKLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2CC1B74F96400C25D26 /* NKLineChartDataItem.m */; };
-		B82FF2D01B75953B00C25D26 /* NKPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2CF1B75953B00C25D26 /* NKPieChartDataItem.m */; };
-		B82FF2D31B75959400C25D26 /* NKPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D21B75959400C25D26 /* NKPieChart.m */; };
-		B82FF2D61B759CD200C25D26 /* NKCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D51B759CD200C25D26 /* NKCircleChart.m */; };
-		B82FF2D91B75B69800C25D26 /* NKRadarChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D81B75B69800C25D26 /* NKRadarChartDataItem.m */; };
-		B82FF2DC1B75B72000C25D26 /* NKRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2DB1B75B72000C25D26 /* NKRadarChart.m */; };
+		780FDB961C5EB58600FDF98F /* NKWatchChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD8E1B735E2900B9EA93 /* NKWatchChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB971C5EB58700FDF98F /* NKWatchChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD8E1B735E2900B9EA93 /* NKWatchChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB981C5EB5E000FDF98F /* NKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD8A1B735CDF00B9EA93 /* NKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB991C5EB5E000FDF98F /* NKLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2C51B74F87600C25D26 /* NKLineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9A1C5EB5E000FDF98F /* NKLineChartData.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2C81B74F94B00C25D26 /* NKLineChartData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9B1C5EB5E000FDF98F /* NKLineChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2CB1B74F96400C25D26 /* NKLineChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9C1C5EB5E000FDF98F /* NKBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD911B735EA100B9EA93 /* NKBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9D1C5EB5E000FDF98F /* NKPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D11B75959400C25D26 /* NKPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9E1C5EB5E000FDF98F /* NKPieChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2CE1B75953B00C25D26 /* NKPieChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDB9F1C5EB5E000FDF98F /* NKCircleChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D41B759CD200C25D26 /* NKCircleChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA01C5EB5E000FDF98F /* NKRadarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2DA1B75B72000C25D26 /* NKRadarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA11C5EB5E000FDF98F /* NKRadarChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D71B75B69800C25D26 /* NKRadarChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA21C5EB5E100FDF98F /* NKColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD8A1B735CDF00B9EA93 /* NKColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA31C5EB5E100FDF98F /* NKLineChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2C51B74F87600C25D26 /* NKLineChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA41C5EB5E100FDF98F /* NKLineChartData.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2C81B74F94B00C25D26 /* NKLineChartData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA51C5EB5E100FDF98F /* NKLineChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2CB1B74F96400C25D26 /* NKLineChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA61C5EB5E100FDF98F /* NKBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B875FD911B735EA100B9EA93 /* NKBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA71C5EB5E100FDF98F /* NKPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D11B75959400C25D26 /* NKPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA81C5EB5E100FDF98F /* NKPieChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2CE1B75953B00C25D26 /* NKPieChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBA91C5EB5E100FDF98F /* NKCircleChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D41B759CD200C25D26 /* NKCircleChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBAA1C5EB5E100FDF98F /* NKRadarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2DA1B75B72000C25D26 /* NKRadarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780FDBAB1C5EB5E100FDF98F /* NKRadarChartDataItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FF2D71B75B69800C25D26 /* NKRadarChartDataItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		785BBE291C5EAED2001B6DD4 /* NKWatchChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785BBE221C5EAED2001B6DD4 /* NKWatchChart.framework */; };
+		785BBE2A1C5EAED2001B6DD4 /* NKWatchChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 785BBE221C5EAED2001B6DD4 /* NKWatchChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		785BBE3A1C5EAEF4001B6DD4 /* NKWatchChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785BBE331C5EAEF4001B6DD4 /* NKWatchChart.framework */; };
+		785BBE3B1C5EAEF4001B6DD4 /* NKWatchChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 785BBE331C5EAEF4001B6DD4 /* NKWatchChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		785BBE401C5EAF1F001B6DD4 /* NKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD8B1B735CDF00B9EA93 /* NKColor.m */; };
+		785BBE411C5EAF1F001B6DD4 /* NKLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2C61B74F87600C25D26 /* NKLineChart.m */; };
+		785BBE421C5EAF1F001B6DD4 /* NKLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2C91B74F94B00C25D26 /* NKLineChartData.m */; };
+		785BBE431C5EAF1F001B6DD4 /* NKLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2CC1B74F96400C25D26 /* NKLineChartDataItem.m */; };
+		785BBE441C5EAF1F001B6DD4 /* NKBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD921B735EA100B9EA93 /* NKBarChart.m */; };
+		785BBE451C5EAF1F001B6DD4 /* NKPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D21B75959400C25D26 /* NKPieChart.m */; };
+		785BBE461C5EAF1F001B6DD4 /* NKPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2CF1B75953B00C25D26 /* NKPieChartDataItem.m */; };
+		785BBE471C5EAF1F001B6DD4 /* NKCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D51B759CD200C25D26 /* NKCircleChart.m */; };
+		785BBE481C5EAF1F001B6DD4 /* NKRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2DB1B75B72000C25D26 /* NKRadarChart.m */; };
+		785BBE491C5EAF1F001B6DD4 /* NKRadarChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D81B75B69800C25D26 /* NKRadarChartDataItem.m */; };
+		785BBE4A1C5EAF20001B6DD4 /* NKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD8B1B735CDF00B9EA93 /* NKColor.m */; };
+		785BBE4B1C5EAF20001B6DD4 /* NKLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2C61B74F87600C25D26 /* NKLineChart.m */; };
+		785BBE4C1C5EAF20001B6DD4 /* NKLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2C91B74F94B00C25D26 /* NKLineChartData.m */; };
+		785BBE4D1C5EAF20001B6DD4 /* NKLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2CC1B74F96400C25D26 /* NKLineChartDataItem.m */; };
+		785BBE4E1C5EAF20001B6DD4 /* NKBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD921B735EA100B9EA93 /* NKBarChart.m */; };
+		785BBE4F1C5EAF20001B6DD4 /* NKPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D21B75959400C25D26 /* NKPieChart.m */; };
+		785BBE501C5EAF20001B6DD4 /* NKPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2CF1B75953B00C25D26 /* NKPieChartDataItem.m */; };
+		785BBE511C5EAF20001B6DD4 /* NKCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D51B759CD200C25D26 /* NKCircleChart.m */; };
+		785BBE521C5EAF20001B6DD4 /* NKRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2DB1B75B72000C25D26 /* NKRadarChart.m */; };
+		785BBE531C5EAF20001B6DD4 /* NKRadarChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B82FF2D81B75B69800C25D26 /* NKRadarChartDataItem.m */; };
 		B875FD4D1B735C1100B9EA93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD4C1B735C1100B9EA93 /* main.m */; };
 		B875FD501B735C1100B9EA93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD4F1B735C1100B9EA93 /* AppDelegate.m */; };
 		B875FD531B735C1100B9EA93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD521B735C1100B9EA93 /* ViewController.m */; };
@@ -28,13 +66,25 @@
 		B875FD7A1B735C7200B9EA93 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD791B735C7200B9EA93 /* ExtensionDelegate.m */; };
 		B875FD7C1B735C7200B9EA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B875FD7B1B735C7200B9EA93 /* Assets.xcassets */; };
 		B875FD801B735C7200B9EA93 /* WatchChart.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B875FD641B735C7200B9EA93 /* WatchChart.app */; };
-		B875FD8C1B735CDF00B9EA93 /* NKColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD8B1B735CDF00B9EA93 /* NKColor.m */; };
-		B875FD931B735EA100B9EA93 /* NKBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B875FD921B735EA100B9EA93 /* NKBarChart.m */; };
 		B8D5E22F1B747C6F005C3A88 /* ChartTableRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5E22E1B747C6F005C3A88 /* ChartTableRowController.m */; };
 		B8D5E2321B748522005C3A88 /* ChartInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5E2311B748522005C3A88 /* ChartInterfaceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		785BBE271C5EAED2001B6DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B875FD401B735C1100B9EA93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785BBE211C5EAED2001B6DD4;
+			remoteInfo = "NKWatchChart-watchOS";
+		};
+		785BBE381C5EAEF4001B6DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B875FD401B735C1100B9EA93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785BBE321C5EAEF4001B6DD4;
+			remoteInfo = "NKWatchChart-iOS";
+		};
 		B875FD721B735C7200B9EA93 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B875FD401B735C1100B9EA93 /* Project object */;
@@ -52,6 +102,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		785BBE1C1C5EAE73001B6DD4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				785BBE2A1C5EAED2001B6DD4 /* NKWatchChart.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785BBE3F1C5EAEF4001B6DD4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				785BBE3B1C5EAEF4001B6DD4 /* NKWatchChart.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B875FD841B735C7200B9EA93 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -77,6 +149,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		785BBE221C5EAED2001B6DD4 /* NKWatchChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKWatchChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		785BBE261C5EAED2001B6DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785BBE331C5EAEF4001B6DD4 /* NKWatchChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NKWatchChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		785BBE371C5EAEF4001B6DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B82FF2C51B74F87600C25D26 /* NKLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKLineChart.h; sourceTree = "<group>"; };
 		B82FF2C61B74F87600C25D26 /* NKLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKLineChart.m; sourceTree = "<group>"; };
 		B82FF2C81B74F94B00C25D26 /* NKLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKLineChartData.h; sourceTree = "<group>"; };
@@ -118,7 +194,7 @@
 		B875FD8B1B735CDF00B9EA93 /* NKColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKColor.m; sourceTree = "<group>"; };
 		B875FD8E1B735E2900B9EA93 /* NKWatchChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKWatchChart.h; sourceTree = "<group>"; };
 		B875FD911B735EA100B9EA93 /* NKBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKBarChart.h; sourceTree = "<group>"; };
-		B875FD921B735EA100B9EA93 /* NKBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKBarChart.m; sourceTree = "<group>"; };
+		B875FD921B735EA100B9EA93 /* NKBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = NKBarChart.m; sourceTree = "<group>"; tabWidth = 4; };
 		B8D5E22D1B747C6F005C3A88 /* ChartTableRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartTableRowController.h; sourceTree = "<group>"; };
 		B8D5E22E1B747C6F005C3A88 /* ChartTableRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartTableRowController.m; sourceTree = "<group>"; };
 		B8D5E2301B748522005C3A88 /* ChartInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartInterfaceController.h; sourceTree = "<group>"; };
@@ -126,10 +202,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		785BBE1E1C5EAED2001B6DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785BBE2F1C5EAEF4001B6DD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B875FD451B735C1100B9EA93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				785BBE3A1C5EAEF4001B6DD4 /* NKWatchChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,18 +228,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				785BBE291C5EAED2001B6DD4 /* NKWatchChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		785BBE231C5EAED2001B6DD4 /* NKWatchChart-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				785BBE261C5EAED2001B6DD4 /* Info.plist */,
+			);
+			path = "NKWatchChart-watchOS";
+			sourceTree = "<group>";
+		};
+		785BBE341C5EAEF4001B6DD4 /* NKWatchChart-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				785BBE371C5EAEF4001B6DD4 /* Info.plist */,
+			);
+			path = "NKWatchChart-iOS";
+			sourceTree = "<group>";
+		};
 		B875FD3F1B735C1100B9EA93 = {
 			isa = PBXGroup;
 			children = (
 				B875FD4A1B735C1100B9EA93 /* NKWatchChartDemo */,
 				B875FD651B735C7200B9EA93 /* WatchChart */,
 				B875FD741B735C7200B9EA93 /* WatchChart Extension */,
+				B875FD891B735CC600B9EA93 /* NKWatchChart */,
+				785BBE231C5EAED2001B6DD4 /* NKWatchChart-watchOS */,
+				785BBE341C5EAEF4001B6DD4 /* NKWatchChart-iOS */,
 				B875FD491B735C1100B9EA93 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -159,6 +270,8 @@
 				B875FD481B735C1100B9EA93 /* NKWatchChartDemo.app */,
 				B875FD641B735C7200B9EA93 /* WatchChart.app */,
 				B875FD701B735C7200B9EA93 /* WatchChart Extension.appex */,
+				785BBE221C5EAED2001B6DD4 /* NKWatchChart.framework */,
+				785BBE331C5EAEF4001B6DD4 /* NKWatchChart.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,7 +313,6 @@
 		B875FD741B735C7200B9EA93 /* WatchChart Extension */ = {
 			isa = PBXGroup;
 			children = (
-				B875FD891B735CC600B9EA93 /* NKWatchChart */,
 				B875FD751B735C7200B9EA93 /* InterfaceController.h */,
 				B875FD761B735C7200B9EA93 /* InterfaceController.m */,
 				B8D5E22D1B747C6F005C3A88 /* ChartTableRowController.h */,
@@ -240,12 +352,88 @@
 				B82FF2D71B75B69800C25D26 /* NKRadarChartDataItem.h */,
 				B82FF2D81B75B69800C25D26 /* NKRadarChartDataItem.m */,
 			);
-			path = NKWatchChart;
+			name = NKWatchChart;
+			path = "WatchChart Extension/NKWatchChart";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		785BBE1F1C5EAED2001B6DD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780FDB961C5EB58600FDF98F /* NKWatchChart.h in Headers */,
+				780FDB9F1C5EB5E000FDF98F /* NKCircleChart.h in Headers */,
+				780FDB9A1C5EB5E000FDF98F /* NKLineChartData.h in Headers */,
+				780FDB9D1C5EB5E000FDF98F /* NKPieChart.h in Headers */,
+				780FDB991C5EB5E000FDF98F /* NKLineChart.h in Headers */,
+				780FDBA11C5EB5E000FDF98F /* NKRadarChartDataItem.h in Headers */,
+				780FDBA01C5EB5E000FDF98F /* NKRadarChart.h in Headers */,
+				780FDB9E1C5EB5E000FDF98F /* NKPieChartDataItem.h in Headers */,
+				780FDB9C1C5EB5E000FDF98F /* NKBarChart.h in Headers */,
+				780FDB981C5EB5E000FDF98F /* NKColor.h in Headers */,
+				780FDB9B1C5EB5E000FDF98F /* NKLineChartDataItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785BBE301C5EAEF4001B6DD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780FDB971C5EB58700FDF98F /* NKWatchChart.h in Headers */,
+				780FDBA91C5EB5E100FDF98F /* NKCircleChart.h in Headers */,
+				780FDBA41C5EB5E100FDF98F /* NKLineChartData.h in Headers */,
+				780FDBA71C5EB5E100FDF98F /* NKPieChart.h in Headers */,
+				780FDBA31C5EB5E100FDF98F /* NKLineChart.h in Headers */,
+				780FDBAB1C5EB5E100FDF98F /* NKRadarChartDataItem.h in Headers */,
+				780FDBAA1C5EB5E100FDF98F /* NKRadarChart.h in Headers */,
+				780FDBA81C5EB5E100FDF98F /* NKPieChartDataItem.h in Headers */,
+				780FDBA61C5EB5E100FDF98F /* NKBarChart.h in Headers */,
+				780FDBA21C5EB5E100FDF98F /* NKColor.h in Headers */,
+				780FDBA51C5EB5E100FDF98F /* NKLineChartDataItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		785BBE211C5EAED2001B6DD4 /* NKWatchChart-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785BBE2B1C5EAED2001B6DD4 /* Build configuration list for PBXNativeTarget "NKWatchChart-watchOS" */;
+			buildPhases = (
+				785BBE1D1C5EAED2001B6DD4 /* Sources */,
+				785BBE1E1C5EAED2001B6DD4 /* Frameworks */,
+				785BBE1F1C5EAED2001B6DD4 /* Headers */,
+				785BBE201C5EAED2001B6DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NKWatchChart-watchOS";
+			productName = "NKWatchChart-watchOS";
+			productReference = 785BBE221C5EAED2001B6DD4 /* NKWatchChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		785BBE321C5EAEF4001B6DD4 /* NKWatchChart-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 785BBE3C1C5EAEF4001B6DD4 /* Build configuration list for PBXNativeTarget "NKWatchChart-iOS" */;
+			buildPhases = (
+				785BBE2E1C5EAEF4001B6DD4 /* Sources */,
+				785BBE2F1C5EAEF4001B6DD4 /* Frameworks */,
+				785BBE301C5EAEF4001B6DD4 /* Headers */,
+				785BBE311C5EAEF4001B6DD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NKWatchChart-iOS";
+			productName = "NKWatchChart-iOS";
+			productReference = 785BBE331C5EAEF4001B6DD4 /* NKWatchChart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B875FD471B735C1100B9EA93 /* NKWatchChartDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B875FD5F1B735C1100B9EA93 /* Build configuration list for PBXNativeTarget "NKWatchChartDemo" */;
@@ -254,11 +442,13 @@
 				B875FD451B735C1100B9EA93 /* Frameworks */,
 				B875FD461B735C1100B9EA93 /* Resources */,
 				B875FD881B735C7200B9EA93 /* Embed Watch Content */,
+				785BBE3F1C5EAEF4001B6DD4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				B875FD7F1B735C7200B9EA93 /* PBXTargetDependency */,
+				785BBE391C5EAEF4001B6DD4 /* PBXTargetDependency */,
 			);
 			name = NKWatchChartDemo;
 			productName = NKWatchChartDemo;
@@ -289,10 +479,12 @@
 				B875FD6C1B735C7200B9EA93 /* Sources */,
 				B875FD6D1B735C7200B9EA93 /* Frameworks */,
 				B875FD6E1B735C7200B9EA93 /* Resources */,
+				785BBE1C1C5EAE73001B6DD4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				785BBE281C5EAED2001B6DD4 /* PBXTargetDependency */,
 			);
 			name = "WatchChart Extension";
 			productName = "WatchChart Extension";
@@ -308,6 +500,12 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Peng;
 				TargetAttributes = {
+					785BBE211C5EAED2001B6DD4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					785BBE321C5EAEF4001B6DD4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					B875FD471B735C1100B9EA93 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -335,11 +533,27 @@
 				B875FD471B735C1100B9EA93 /* NKWatchChartDemo */,
 				B875FD631B735C7200B9EA93 /* WatchChart */,
 				B875FD6F1B735C7200B9EA93 /* WatchChart Extension */,
+				785BBE211C5EAED2001B6DD4 /* NKWatchChart-watchOS */,
+				785BBE321C5EAEF4001B6DD4 /* NKWatchChart-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		785BBE201C5EAED2001B6DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785BBE311C5EAEF4001B6DD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B875FD461B735C1100B9EA93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,6 +584,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		785BBE1D1C5EAED2001B6DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785BBE431C5EAF1F001B6DD4 /* NKLineChartDataItem.m in Sources */,
+				785BBE421C5EAF1F001B6DD4 /* NKLineChartData.m in Sources */,
+				785BBE461C5EAF1F001B6DD4 /* NKPieChartDataItem.m in Sources */,
+				785BBE451C5EAF1F001B6DD4 /* NKPieChart.m in Sources */,
+				785BBE481C5EAF1F001B6DD4 /* NKRadarChart.m in Sources */,
+				785BBE491C5EAF1F001B6DD4 /* NKRadarChartDataItem.m in Sources */,
+				785BBE401C5EAF1F001B6DD4 /* NKColor.m in Sources */,
+				785BBE411C5EAF1F001B6DD4 /* NKLineChart.m in Sources */,
+				785BBE441C5EAF1F001B6DD4 /* NKBarChart.m in Sources */,
+				785BBE471C5EAF1F001B6DD4 /* NKCircleChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785BBE2E1C5EAEF4001B6DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785BBE4D1C5EAF20001B6DD4 /* NKLineChartDataItem.m in Sources */,
+				785BBE4C1C5EAF20001B6DD4 /* NKLineChartData.m in Sources */,
+				785BBE501C5EAF20001B6DD4 /* NKPieChartDataItem.m in Sources */,
+				785BBE4F1C5EAF20001B6DD4 /* NKPieChart.m in Sources */,
+				785BBE521C5EAF20001B6DD4 /* NKRadarChart.m in Sources */,
+				785BBE531C5EAF20001B6DD4 /* NKRadarChartDataItem.m in Sources */,
+				785BBE4A1C5EAF20001B6DD4 /* NKColor.m in Sources */,
+				785BBE4B1C5EAF20001B6DD4 /* NKLineChart.m in Sources */,
+				785BBE4E1C5EAF20001B6DD4 /* NKBarChart.m in Sources */,
+				785BBE511C5EAF20001B6DD4 /* NKCircleChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B875FD441B735C1100B9EA93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,26 +632,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82FF2C71B74F87600C25D26 /* NKLineChart.m in Sources */,
-				B82FF2D01B75953B00C25D26 /* NKPieChartDataItem.m in Sources */,
-				B82FF2CA1B74F94B00C25D26 /* NKLineChartData.m in Sources */,
 				B8D5E2321B748522005C3A88 /* ChartInterfaceController.m in Sources */,
 				B875FD7A1B735C7200B9EA93 /* ExtensionDelegate.m in Sources */,
-				B82FF2D31B75959400C25D26 /* NKPieChart.m in Sources */,
 				B875FD771B735C7200B9EA93 /* InterfaceController.m in Sources */,
-				B82FF2D91B75B69800C25D26 /* NKRadarChartDataItem.m in Sources */,
-				B82FF2CD1B74F96400C25D26 /* NKLineChartDataItem.m in Sources */,
-				B875FD8C1B735CDF00B9EA93 /* NKColor.m in Sources */,
 				B8D5E22F1B747C6F005C3A88 /* ChartTableRowController.m in Sources */,
-				B875FD931B735EA100B9EA93 /* NKBarChart.m in Sources */,
-				B82FF2DC1B75B72000C25D26 /* NKRadarChart.m in Sources */,
-				B82FF2D61B759CD200C25D26 /* NKCircleChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		785BBE281C5EAED2001B6DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 785BBE211C5EAED2001B6DD4 /* NKWatchChart-watchOS */;
+			targetProxy = 785BBE271C5EAED2001B6DD4 /* PBXContainerItemProxy */;
+		};
+		785BBE391C5EAEF4001B6DD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 785BBE321C5EAEF4001B6DD4 /* NKWatchChart-iOS */;
+			targetProxy = 785BBE381C5EAEF4001B6DD4 /* PBXContainerItemProxy */;
+		};
 		B875FD731B735C7200B9EA93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B875FD6F1B735C7200B9EA93 /* WatchChart Extension */;
@@ -444,6 +692,96 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		785BBE2C1C5EAED2001B6DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "NKWatchChart-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "watch.develop.NKWatchChart-watchOS";
+				PRODUCT_NAME = NKWatchChart;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		785BBE2D1C5EAED2001B6DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "NKWatchChart-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "watch.develop.NKWatchChart-watchOS";
+				PRODUCT_NAME = NKWatchChart;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		785BBE3D1C5EAEF4001B6DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "NKWatchChart-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "watch.develop.NKWatchChart-iOS";
+				PRODUCT_NAME = NKWatchChart;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		785BBE3E1C5EAEF4001B6DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "NKWatchChart-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "watch.develop.NKWatchChart-iOS";
+				PRODUCT_NAME = NKWatchChart;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B875FD5D1B735C1100B9EA93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -607,6 +945,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		785BBE2B1C5EAED2001B6DD4 /* Build configuration list for PBXNativeTarget "NKWatchChart-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785BBE2C1C5EAED2001B6DD4 /* Debug */,
+				785BBE2D1C5EAED2001B6DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		785BBE3C1C5EAEF4001B6DD4 /* Build configuration list for PBXNativeTarget "NKWatchChart-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				785BBE3D1C5EAEF4001B6DD4 /* Debug */,
+				785BBE3E1C5EAEF4001B6DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B875FD431B735C1100B9EA93 /* Build configuration list for PBXProject "NKWatchChartDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
