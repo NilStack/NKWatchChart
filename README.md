@@ -10,7 +10,7 @@ A chart library for Apple Watch based on [PNChart](https://github.com/kevinzhow/
 
 ##Usage##
 
-###Cocoapods###
+###CocoaPods###
 In your watchOS target
 
     pod 'NKWatchChart'
@@ -23,7 +23,7 @@ And
 
     #import "NKWatchChart.h"
 
-[Using Cocoapods with watchOS 2](https://medium.com/@JTEhlert/using-cocoapods-with-watchos-2-723b92eae04f) by Justin Ehlert
+[Using CocoaPods with watchOS 2](https://medium.com/@JTEhlert/using-cocoapods-with-watchos-2-723b92eae04f) by Justin Ehlert
 
 ###Copy NKWatchChart folder to watch app extension ###
 
